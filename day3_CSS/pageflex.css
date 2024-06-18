@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    border-bottom: 2px blue dashed;
+}
+
+.flexclass {
+    text-decoration: underline;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 23px;
+}
+
+#search {
+    text-decoration: none;
+    border-radius: 14px;
+    width: 500px;
+    height: 1px;
+    margin-top: 10px;
+    cursor: auto;
+    color: black;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flexclass:hover {
+    color: red;
+}
+
+.hamburger{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 23px;
+    margin-top: 10px;
+}

@@ -1,0 +1,97 @@
+/* h2{
+    color: green;
+}
+
+.html-grp,.heading{
+    background-color: yellow;
+}
+
+.html-grp.heading{
+    text-decoration: underline;
+}
+
+.root1{
+    background-color: aquamarine;
+    padding: 12px;
+    margin: 24px;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.root2{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    padding: 12px;
+    margin: 24px;
+    border: 2px solid black;
+    width: 200px;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: rgb(136, 0, 255);
+    width: 10px;
+    font-size: 2em;
+}
+
+p{
+    background-color: lightblue;
+    width: 100em;
+    font-size: 10em;
+}
+
+.btn{
+    display: block;
+    background-color: lightskyblue;
+    color: lightcoral;
+    width: fit-content;
+    margin: 10px auto;
+    
+    font-size: 16px;
+    padding: 0.4em 1em;
+    border-radius: 0.5em;
+    border: none;
+}
+
+.big{
+    font-size: 24px;
+    }
+    
+    .small{
+        font-size: 12px;
+}
+
+.b{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+} */
+
+ /* id > class > tag selector
+inline > internal or external accordingly */
+
+/* Decendent combinator */
+div h3{
+    color: brown;
+}
+
+/* child selector */
+ol>li{
+    color: tomato;
+}
+
+/* Pseudo Selector */
+ol :first-child{
+    color: blue;
+}
+
+/* adjustent sibling selector */
+h3+p{
+    color: blueviolet;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>div{
+    background-color: purple;
+    margin: 48px;
+    height: 200px;
+    width: 200px;
+}
+
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c13,.c14,.c15,.c16{
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+}
+
+.c2{
+    position: relative;
+    left: 76px;
+}
+
+.c3{
+    position: relative;
+    left: 75px;
+}
+
+.c5{
+    position: relative;
+    left: 23px;
+    top: 23px;
+}
+
+.c6{
+    position: relative;
+    left: 65px;
+}
+
+.c7{
+    position: absolute;
+    left: 434px;
+    bottom: 68px;
+    /* c8 will take the palce of the c7 but behind c7 .
+    it is assuming that c7 is not present after absolute position in c7.*/
+}
+
+.c9{
+    position: absolute;
+}
+
+.c11{
+    position: absolute;
+    z-index: -1;
+    /* Here the c11 goes beyond the purple box also. so there should be other way to put it behind c12 only. */
+}
+
+.c12{
+    position: relative;
+    z-index: 1;
+    /* Here c11 is behind c12 only. */
+}
+
+.c13{
+    position: fixed;
+    top: 200px;
+    left: 434px;
+
+    /* fixed positioning it will fixed to the screen.  */
+}
+
+.c15{
+    position: sticky;
+    top: 40px;
+}
+

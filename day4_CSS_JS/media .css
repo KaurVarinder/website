@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: aquamarine;
+    padding: 24px;
+}
+
+.child{
+    background-color: yellow;
+    padding: 24px;
+}
+
+@media(width<=1000px) {
+    .parent{
+        background-color: grey;
+    }
+}

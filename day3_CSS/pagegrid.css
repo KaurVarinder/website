@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.same {
+    border: 1px solid black;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+
+nav, footer {
+    background-color: lightcoral;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+aside {
+    background-color: yellow;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+main {
+    background-color: lightgreen;
+    height: 400px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+section {
+    /* background-color: lightblue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+    height: 70%;
+    background-color: pink;
+    margin: 34px 34px;
+}

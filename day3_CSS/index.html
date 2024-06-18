@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="btn">Submit</button>
+    <a href="https://www.kaggle.com">Amazon Link</a>
+
+    <ul>
+        <!-- No first child of li. But there is p. So li has second child.If we write nth-child(2) then Mango will be colored as it is the second child of li. We can say that first child is of p. Then li and so on. -->
+        <p>1. Start....</p>
+        <li>3. Banana</li>
+        <li>4. Kiwi</li>
+        <p>5. This is the fruits list</p>
+        <li>6. Apple</li>
+        <p>7. End....</p>
+        <li>8. A</li>
+        <li>9. B</li>
+    </ul>
+
+    <!-- first-child, last-child, nth-child. It will affect where a parent-child present. So ul and div are parent having child. -->
+    <div>
+        <h3>Info</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatum debitis dolorem, praesentium
+            facilis blanditiis nulla odio omnis eaque sint adipisci. Quo, quisquam!</p>
+    </div>
+
+    <div class="parent">
+        <div class="child">Child 1</div>
+        <div class="child child2">Child 2</div>
+        <div class="child search">Search bar</div>
+        <div class="child">Child 4</div>
+    </div>
+
+    <div class="parent1">
+        <div class="child1">Child 1</div>
+        <div class="child1 child3">Child 2</div>
+        <div class="child1 search1">Search bar</div>
+        <div class="child1">Child 4</div>
+        <div class="child1">Child 11</div>
+        <div class="child1 ">Child 12</div>
+        <div class="child1 search1">Search bar</div>
+        <div class="child1">Child 14</div>
+        <div class="child1">Child 21</div>
+        <div class="child1">Child 22</div>
+        <div class="child1 search1">Search bar</div>
+        <div class="child1">Child 24</div>
+    </div>
+
+    <!-- Default behavior of div is to put all elements into list. So we use Flex -->
+
+    <div class="par">
+        <div class="chi1">
+            Child1 here....
+        </div>
+        <div class="chi2">
+            Child2 here....
+        </div>
+    </div>
+</body>
+
+</html>
